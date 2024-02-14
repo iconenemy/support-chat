@@ -1,0 +1,12 @@
+{
+  "name": "support-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "concurrently  \"cd server && yarn start:dev \"  \" cd client && yarn dev \""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
